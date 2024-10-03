@@ -60,7 +60,7 @@ async def ayuda(ctx):
 
 @bot.command()
 async def Help(ctx):
-    await ctx.send("Help. Use $ al inicio para ejecutar comandos. Ejemplo: $hello, Comandos: add, add1, add2, add3 (suma, multiplica, divide, resta), hello, bye, etc.")
+    await ctx.send("Help. Use $ at startup to execute commands. Example: $hello, Commands: add, add1, add2, add3 (add, multiply, divide, subtract), hello, bye, etc.")
     
 @bot.command()
 async def meme(ctx):
