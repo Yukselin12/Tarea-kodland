@@ -31,7 +31,7 @@ async def password(ctx):
 
 @bot.command()
 async def emoji(ctx):
-    await ctx.send(gen_emodji)
+    await ctx.send(gen_emodji())
 
 
 @bot.command()
