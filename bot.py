@@ -56,11 +56,11 @@ async def add3(ctx, left: int, right: int):
 
 @bot.command()
 async def ayuda(ctx):
-    await ctx.send("Ayuda. Para ejecutar comandos siempre utiliza $ al inicio. Ejemplo: $hello, Comandos: add, add1, add2, add3 (suma, multiplica, divide, resta), hello, bye, etc.")
+    await ctx.send("Ayuda. Para ejecutar comandos siempre utiliza $ al inicio. Ejemplo: $hello, Comandos: add, add1, add2, add3 (suma, multiplica, divide, resta), hello, bye, tambien existen los comandos: emoji password cat dog duck etc.")
 
 @bot.command()
 async def Help(ctx):
-    await ctx.send("Help. Use $ at startup to execute commands. Example: $hello, Commands: add, add1, add2, add3 (add, multiply, divide, subtract), hello, bye, etc.")
+    await ctx.send("Help. Use $ at startup to execute commands. Example: $hello, Commands: add, add1, add2, add3 (add, multiply, divide, subtract), hello, bye, There are also the commands: emoji password cat dog duck etc. etc.")
     
 @bot.command()
 async def meme(ctx):
@@ -102,6 +102,5 @@ async def dog(ctx):
     el programa llama a la función get_dog_image_url'''
     image_url = get_dog_image_url()
     await ctx.send(image_url)
-
-
+    
 bot.run("token")
