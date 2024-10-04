@@ -10,7 +10,7 @@ def gen_pass(pass_length):
 
     return password
 def gen_emodji():
-    emodji = [":relaxed:", ":angry:", ":smile:", "\U0001F923"]
+    emodji = [":relaxed:", ":angry:", ":smile:", ":face_holding_back_tears:", ":thinking:", ":hushed:"]
     return random.choice(emodji)
 
 def get_duck_image_url():    
